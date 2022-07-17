@@ -1,8 +1,51 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+main {
+    padding: 10px;
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    color: dimgray;
+}
+
+.title h1{
+    font-size: 2.5rem;
+    color: #54bc96;
+}
+
+.btn-wrapper{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn-wrapper button{
+    padding: 5px 25px;
+    background-color: darkslategray;
+    border: none;
+    border-radius: 99px;
+    min-width: 130px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: lightyellow;
+}
+
+#income {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 4.5rem;
+    font-family: "Roboto";
+    color:deeppink;
+}
+
+#wallet {
+    padding: 4rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+#wallet img{
+    width: 100px;
 }
